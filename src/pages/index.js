@@ -5,13 +5,13 @@ import FaSoundcloud from 'react-icons/lib/fa/soundcloud';
 import FaFacebook from 'react-icons/lib/fa/facebook';
 
 const IndexPage = ({data}) => (
-  <div>
+  <div className="index-page">
     <div className="main-content">
       <video autoPlay loop id="bg-video">
         <source src="https://s3-us-west-2.amazonaws.com/kameronjohnson/treetop.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
       </video>
       <h1>Hi, I'm Kameron.</h1>
-      <p>A music composer turned web developer from sunny Portland, Oregon!</p>
+      <p>I'm a music composer turned web developer from sunny Portland, Oregon!</p>
   {/*    
       <p> 
         <Link to="/page-2/">page 2</Link>
