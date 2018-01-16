@@ -195,7 +195,7 @@ footer {
   }
   &.contact {
     background-image: url(../images/powerlines.jpg);
-    & .inside-text {
+    & .inside-text p {
       @media (max-width: 550px) {
         font-size: 1em;
       }

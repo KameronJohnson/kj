@@ -1,17 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
-import ClassNames from 'classnames';
-import { PlayButton, PrevButton, NextButton, Progress, Icons, Timer, VolumeControl  } from 'react-soundplayer/components';
-import { withSoundCloudAudio } from 'react-soundplayer/addons';
-
 import PlaylistSoundPlayer from '../components/PlaylistSoundPlayer';
-import '../styles/buttons.css';
-import '../styles/progress.css';
-import '../styles/volume.css';
-import '../styles/icons.css';
-import '../styles/cover.css';
-
-const { SoundCloudLogoSVG } = Icons;
 
 const clientId = '076dc31dbe6231d2d3f1bafcc3127e82';
 const resolveUrl = 'https://soundcloud.com/kameronjohnsonmusic/sets/christmas';
@@ -49,16 +38,3 @@ class MusicPage extends Component {
 }
 
 export default MusicPage;
-
-// const MusicPage = () => (
-//   <div className="inside music">
-//     <h1>Music</h1>
-//     <p>Welcome to music</p>
-//     <Link to="/">Go back to the homepage</Link>
-//     <PlaylistSoundPlayer 
-//       resolveUrl={resolveUrl}
-//       clientId={clientId}
-//       {...this.props} 
-//     />
-//   </div>
-// )
