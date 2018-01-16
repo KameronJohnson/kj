@@ -12,7 +12,6 @@
     "gatsby-plugin-sass": "^1.0.15",
     "gatsby-source-filesystem": "^1.5.11",
     "gatsby-transformer-remark": "^1.7.26",
-    "node-sass": "^4.7.2",
     "prop-types": "^15.6.0",
     "react-icons": "^2.2.7",
     "react-soundplayer": "^1.0.4",
