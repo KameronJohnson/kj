@@ -186,6 +186,7 @@ footer {
 .inside {
   height: 100%;
   background-size: cover;
+  background-attachment: fixed;
   opacity: .9;
   &.dev {
     background-image: url(../images/dark-forest.jpg);
@@ -230,7 +231,7 @@ footer {
 ==================================== */
 
 .grid-container-dev {
-  height: 100vh;
+  height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 215px minmax(150px, auto);
@@ -327,7 +328,7 @@ footer {
 ==================================== */
 
 .grid-container-music {
-  height: 100vh;
+  height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 175px minmax(150px, auto);
