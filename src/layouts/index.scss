@@ -31,7 +31,7 @@ $green: #3cd3ad;
   display: flex;
   align-items: center;
     & .nav-item {
-      padding: 3px 0 0 0;
+      padding: 0;
       margin: 0;
       & .nav-active {
         color: $blue;
@@ -43,11 +43,14 @@ $green: #3cd3ad;
         background: $white;
       }
       & a {
-        padding: 16px 15px 13px 15px;
+        padding: 14px 13px;
         text-decoration: none;
         color: $white;
         text-transform: uppercase;
         letter-spacing: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
     }
 }
@@ -80,16 +83,15 @@ $green: #3cd3ad;
     & h1 {
       margin: 0;
       padding: 0;
-      padding-top: 3px;
       font-size: 2.5em;
-      @media (max-width: 480px) {
-        padding-top: 5px;
-      }
       & a {
         color: $blue;
         text-decoration: none;
         font-weight: normal;
-        padding: 0 15px;
+        padding: 5px 15px 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         &:hover {
           color: $green;
           transition: all .2s ease-in-out;
@@ -176,6 +178,9 @@ footer {
         }
       }
     }
+  }
+  @media (max-width: 550px) {
+    transform: translateY(-10%);
   }
 }
 
@@ -357,7 +362,6 @@ footer {
   grid-area: grid-intro-music;
   &.text-music {
     max-width: 900px;
-    transform: translateY(15%);
     text-align: center;
     margin: auto;
     color: white;
@@ -381,7 +385,7 @@ footer {
 @media (max-width: 991px) {
   .grid-container-music {
     grid-template-columns: 1fr;
-    grid-template-rows: 125px 408px auto;
+    grid-template-rows: 175px 408px auto;
     grid-gap: 0 50px;
     grid-template-areas:
       "grid-intro-music"

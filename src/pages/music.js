@@ -15,7 +15,7 @@ class MusicPage extends Component {
       <div className="inside music">
         <div className="grid-container-music">
           <div className="grid-intro-music text-music">
-            <p>Music is a big part of my life, check out some of these jams!</p>
+            <p>Music is a big part of my life, and has become my side hustle. I license all types of music for TV, film, the web and video games. Here's some pop music for your listening pleasure!</p>
           </div>
           <div className="grid-left-music">
             <PlaylistSoundPlayer 

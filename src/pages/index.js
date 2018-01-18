@@ -2,12 +2,12 @@ import React from 'react'
 import Link from 'gatsby-link'
 import FaGithub from 'react-icons/lib/fa/github';
 import FaSoundcloud from 'react-icons/lib/fa/soundcloud';
-import FaFacebook from 'react-icons/lib/fa/facebook';
+import FaLinkedin from 'react-icons/lib/fa/linkedin';
 
 const IndexPage = ({data}) => (
   <div className="index-page">
     <div className="main-content">
-      <video autoPlay loop id="bg-video">
+      <video autoPlay loop id="bg-video" poster="../images/tree-mobile.jpg.jpg">
         <source src="https://s3-us-west-2.amazonaws.com/kameronjohnson/treetop.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
       </video>
       <h1>Hi, I'm Kameron.</h1>
@@ -43,8 +43,8 @@ const IndexPage = ({data}) => (
             </a>
           </li>
           <li>
-            <a className="footer-link grow" target="_blank" href="https://facebook.com/kameronjohnsonmusic">
-              <FaFacebook />
+            <a className="footer-link grow" target="_blank" href="https://www.linkedin.com/in/kameronjohnson">
+              <FaLinkedin />
             </a>
           </li>
         </ul>

@@ -6,8 +6,8 @@ const DevPage = () => (
   <div className="inside dev">
     <div className="grid-container-dev">
       <div className="grid-intro-dev text-dev">
-        <p>I enjoy working on new projects and keeping up with the latest JavaScript frameworks and web technologies. 
-          Check out these examples from my <a href="http://github.com/kameronjohnson" target="_blank">Github</a> I've put together to keep my skills sharp.
+        <p>I enjoy working on new projects to keep my skills sharp with the latest JavaScript frameworks and web technologies. 
+          Check out these recent examples from my <a href="http://github.com/kameronjohnson" target="_blank">Github</a>.
         </p>
       </div>
       <div className="grid-left-dev">
