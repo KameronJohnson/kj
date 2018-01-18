@@ -2,6 +2,12 @@ import React, { Component } from 'react';
 import Link from 'gatsby-link';
 import PlaylistSoundPlayer from '../components/PlaylistSoundPlayer';
 
+import '../styles/soundplayer/buttons.css';
+import '../styles/soundplayer/cover.css';
+import '../styles/soundplayer/icons.css';
+import '../styles/soundplayer/progress.css';
+import '../styles/soundplayer/volume.css';
+
 const clientId = '076dc31dbe6231d2d3f1bafcc3127e82';
 const resolveUrl = 'https://soundcloud.com/kameronjohnsonmusic/sets/christmas';
 const resolveUrlPop = 'https://soundcloud.com/kameronjohnsonmusic/sets/pop-jams';
