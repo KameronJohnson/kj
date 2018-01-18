@@ -200,7 +200,9 @@ footer {
     background-image: url(../images/studio.jpg);
   }
   &.contact {
-    background-image: url(../images/powerlines.jpg);
+    // background-image: url(../images/powerlines.jpg);
+    background-image: url("../images/topography.svg"), linear-gradient(110deg, #3e30fe, #3cd3ad);
+    background-size: 340px, auto;
     & .inside-text p {
       @media (max-width: 550px) {
         font-size: 1em;
