@@ -8,11 +8,9 @@ import './index.scss'
 const Header = () => (
   <div className="header">
     <div className="logo">
-      <h1>
-        <Link to="/">
-          KJ
-        </Link>
-      </h1>
+      <Link to="/">
+        KJ
+      </Link>
     </div>
     <ul className="main-nav"> 
       <li className="nav-item">

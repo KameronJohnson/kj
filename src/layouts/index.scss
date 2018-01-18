@@ -39,7 +39,7 @@ $green: #3cd3ad;
         background: $white;
       }
       &:hover a {
-        color: $blue;
+        color: $green;
         transition: all .2s ease-in-out;
         background: $white;
       }
@@ -81,24 +81,21 @@ $green: #3cd3ad;
   font-family: 'CooperHewitt-Semibold', sans-serif;
   & .logo {
     background-color: $white;
-    & h1 {
-      margin: 0;
+    height: 50px;
+    width: 65px;
+    & a {
+      font-size: 33px;
+      color: $blue;
+      text-decoration: none;
+      font-weight: normal;
       padding: 0;
-      font-size: 2em;
       height: 100%;
-      & a {
-        color: $blue;
-        text-decoration: none;
-        font-weight: normal;
-        padding: 0 15px;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        &:hover {
-          color: $green;
-          transition: all .2s ease-in-out;
-        }
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:hover {
+        color: $green;
+        transition: all .2s ease-in-out;
       }
     }
   }
@@ -225,9 +222,9 @@ footer {
       }
       & a {
         text-decoration: none;
-        color: $blue;
+        color: $green;
         &:hover {
-          color: $green;
+          color: $blue;
         }
       }
     }
@@ -270,10 +267,10 @@ footer {
       font-size: 1.5em;
       padding: 0 10px;
       & a {
-        color: $blue;
+        color: $green;
         text-decoration: none;
         &:hover {
-          color: $green;
+          color: $blue;
         }
       }
     }
@@ -295,9 +292,9 @@ footer {
     }
     & a { 
       text-decoration: none;
-      color: $blue;
+      color: $green;
       &:hover {
-        color: $green;
+        color: $blue;
       }
     }
   }
