@@ -6,7 +6,7 @@ const DevPage = () => (
   <div className="inside dev">
     <div className="grid-container-dev">
       <div className="grid-intro-dev text-dev">
-        <p>I enjoy working on new projects to keep my skills sharp with the latest JavaScript frameworks and web technologies. 
+        <p>I enjoy creating excellent modern websites, and keeping up with the latest JavaScript frameworks and front end web technologies. 
           Check out these recent examples from my <a href="http://github.com/kameronjohnson" target="_blank">Github</a>.
         </p>
       </div>
@@ -25,7 +25,7 @@ const DevPage = () => (
       </div>
       <div className="grid-right-dev">
         <h3>My Weather Forecast</h3>
-        <p>A weather forecast app built with React + Redux.
+        <p>A weather forecasting app built with React + Redux.
           <span>
             <a href="https://github.com/KameronJohnson/My-Weather-Forecast" target="_blank">
               <FaGithub />
