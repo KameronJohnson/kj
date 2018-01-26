@@ -3,6 +3,9 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
+require('typeface-clear-sans')
+require('typeface-cooper-hewitt')
+
 import './index.scss'
 
 const Header = () => (

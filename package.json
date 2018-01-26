@@ -15,7 +15,9 @@
     "prop-types": "^15.6.0",
     "react-icons": "^2.2.7",
     "react-soundplayer": "^1.0.4",
-    "soundcloud-audio": "^1.2.2"
+    "soundcloud-audio": "^1.2.2",
+    "typeface-clear-sans": "0.0.44",
+    "typeface-cooper-hewitt": "0.0.44"
   },
   "keywords": [
     "gatsby"
