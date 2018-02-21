@@ -5,6 +5,7 @@
 $blue: #3e30fe;
 $white: #F5F5F5;
 $green: #3cd3ad;
+$salmon: #ffc2b2;
 
 /* ================================= 
   Main Nav
@@ -107,6 +108,9 @@ $green: #3cd3ad;
   & p {
     font-size: 1.6em;
     line-height: 1.2;
+    & span {
+      color: $salmon;
+    }
   }
   @media (max-width: 550px) {
     margin: 35px auto 20px;
@@ -217,6 +221,9 @@ footer {
         &:hover {
           color: $blue;
         }
+      }
+      & .contact-link:hover {
+        color: $salmon;
       }
     }
   }
