@@ -3,11 +3,12 @@ import Link from 'gatsby-link'
 import FaGithub from 'react-icons/lib/fa/github';
 import FaSoundcloud from 'react-icons/lib/fa/soundcloud';
 import FaLinkedin from 'react-icons/lib/fa/linkedin';
+import poster from '../images/tree-mobile.jpg'
 
 const IndexPage = ({data}) => (
   <div className="index-page">
     <div className="main-content">
-      <video autoPlay loop id="bg-video" poster="../images/tree-mobile.jpg.jpg">
+      <video autoPlay loop id="bg-video" poster={poster}>
         <source src="https://s3-us-west-2.amazonaws.com/kameronjohnson/treetop.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
       </video>
       <h1>Hi, I'm Kameron.</h1>
