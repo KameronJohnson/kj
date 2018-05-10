@@ -263,8 +263,9 @@ footer {
   }
   & img {
     border: solid 1px rgba(110,133,156,0.15);
+    transition: all 1s;
     &:hover {
-    opacity: .75;
+      transform: scale(1.05);
     }
   }
   & p {
