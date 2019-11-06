@@ -12,23 +12,7 @@ const IndexPage = ({data}) => (
         <source src="https://s3-us-west-2.amazonaws.com/kameronjohnson/treetop.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
       </video>
       <h1>Hi, I'm Kameron.</h1>
-      <p>A music composer turned <span>web developer</span> from sunny Portland, Oregon!</p>
-  {/*    
-      <p> 
-        <Link to="/page-2/">page 2</Link>
-      </p>
-      <h2>Post Index</h2>
-      <ul>
-        {data.allMarkdownRemark.edges.map(post => (
-          <li key={post.node.id}>
-            <Link key={post.node.id} 
-                  to={post.node.frontmatter.path}>
-                  {post.node.frontmatter.title}        
-            </Link>
-          </li>
-        ))}
-      </ul>
-  */}
+      <p>A Music Composer turned <span>Front-End Developer</span> from sunny Portland, Oregon!</p>
     </div>
       <footer className="footer">
         <h3 className="footer-text">Where to find me</h3>
