@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import KJResume from "../docs/KJ-Resume-2019.pdf";
+import KJResume from "../docs/KJ-Resume-2020.pdf";
 import FaGithub from 'react-icons/lib/fa/github';
 
 const DevPage = () => (
@@ -44,7 +44,7 @@ const DevPage = () => (
         </p>
         <a href="https://my-weather-forecast.netlify.com/" target="_blank">
           <img src={require("../images/my-weather-forecast.png")}/>
-        </a> 
+        </a>
       </div>
       <div className="flex-dev">
         <h3><a href="https://github.com/KameronJohnson/Movie-Discover-React" target="_blank">Movie Discover</a></h3>
