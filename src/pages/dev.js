@@ -13,7 +13,7 @@ const DevPage = () => (
 				<p>
 
 				</p>
-				<p>I've worked on a variety of greenfield and brownfield development projects for clients including <a href="https://starterpack.intel.com/offer/" target="_blank">Intel</a>, <a href="https://blueprintlsat.com" target="_blank">Blueprint LSAT</a>, <a href="https://www.infocus.com/" target="_blank">InFocus</a>, <a href="https://www.authentic8.com/" target="_blank">Authentic8</a>, <a href="https://www.integritylogistics.com/" target="_blank">Integrity Logistics</a>, <a href="https://buynowcc.com/" target="_blank">BuyNow</a> & <a href="https://www.pooltables.com/" target="_blank">Pooltables.com</a>.</p>
+				<p>I've worked on a variety of greenfield and brownfield development projects for clients including <a href="https://starterpack.intel.com/offer/" target="_blank">Intel</a>, <a href="https://blueprintlsat.com" target="_blank">Blueprint LSAT</a>, <a href="https://www.infocus.com/" target="_blank">InFocus</a>, <a href="https://www.authentic8.com/" target="_blank">Authentic8</a>, <a href="https://www.integritylogistics.com/" target="_blank">Integrity Logistics</a>, <a href="https://buynowcc.com/" target="_blank">BuyNow</a>, <a href="https://www.pooltables.com/" target="_blank">Pooltables.com</a> & <a href="https://providenceforbusiness.com/" target="_blank">Providence Health</a>.</p>
 				<p>Feel free to take a gander at my <a href={KJResume} target="_blank">Resume</a>.</p>
 				{/* <hr></hr>
         <p className="projects">Below are some older personal projects to improve my skills.<br /> Codebases accessible via my <a href="http://github.com/kameronjohnson" target="_blank">Github</a>.</p>
