@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import KJResume from "../docs/KJ-Resume-2020.pdf";
+import KJResume from "../docs/Kameron-Johnson-Resume-2021.pdf";
 import FaGithub from 'react-icons/lib/fa/github';
 
 const DevPage = () => (
